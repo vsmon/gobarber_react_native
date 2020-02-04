@@ -3,6 +3,7 @@ import styled from 'styled-components/native';
 
 import Input from '../../components/input';
 import Button from '../../components/button';
+import {Children} from 'react';
 
 export const Container = styled.KeyboardAvoidingView.attrs({
   enabled: Platform.OS === 'ios',

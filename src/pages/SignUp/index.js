@@ -46,6 +46,7 @@ export default function SignUp({navigation}) {
             onSubmitEditing={() => passwordRef.current.focus()}
             value={''}
             onChangeText={() => {}}
+            ref={emailRef}
           />
 
           <FormInput
@@ -56,6 +57,7 @@ export default function SignUp({navigation}) {
             onSubmitEditing={handleSubmit}
             value={''}
             onChangeText={() => {}}
+            ref={passwordRef}
           />
 
           <SubmitButton loading={false} onPress={handleSubmit}>
